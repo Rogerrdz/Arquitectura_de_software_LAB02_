@@ -25,7 +25,6 @@ mvn -q -DskipTests exec:java -Dsnakes=4
   - **Flechas**: serpiente **0** (Jugador 1).
   - **WASD**: serpiente **1** (si existe).
   - **Espacio** o botón **Action**: Pausar / Reanudar.
-
 ---
 
 ## Reglas del juego (resumen)
@@ -36,10 +35,10 @@ mvn -q -DskipTests exec:java -Dsnakes=4
 - **Teletransportadores** (flechas rojas): entrar por uno te **saca por su par**.
 - **Rayos (Turbo)**: al pisarlos, la serpiente obtiene **velocidad aumentada** temporal.
 - Movimiento con **wrap-around** (el tablero “se repite” en los bordes).
-
 ---
 
 ## Arquitectura (carpetas)
+
 
 ```
 co.eci.snake
